@@ -43,10 +43,11 @@ pio device monitor
 
 <div align="center">
 	<img src="https://jannikroesch.com/src/img/logos/jr/jr-slim-transparent-lightfont/jr-logo-slim-transparent-lightfont-svg.svg" height="64px" />
+	<p>Copyright © 2024 Jannik Roesch</p>
+	</br>
+	<p>Author: Jannik Roesch</p>
+	<p>License: MIT</p>
+	<p>https://github.com/JannikRoesch</p>
+	<p>https://jannikroesch.dev/</p>
+	
 </div>
-
-##### Copyright © 2024 Jannik Roesch
-Author: Jannik Roesch  
-License: MIT  
-https://github.com/JannikRoesch  
-https://jannikroesch.dev/  
