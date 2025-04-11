@@ -38,3 +38,15 @@ pio device monitor
 ## 📘 Dokumentation
 - `docs/ui/*.md` für jedes Modul
 - `docs/CHANGELOG.md` für Versionen
+
+---
+
+<div align="center">
+	<img src="https://jannikroesch.com/src/img/logos/jr/jr-slim-transparent-lightfont/jr-logo-slim-transparent-lightfont-svg.svg" height="64px" />
+</div>
+
+##### Copyright © 2024 Jannik Roesch
+Author: Jannik Roesch  
+License: MIT  
+https://github.com/JannikRoesch  
+https://jannikroesch.dev/  
