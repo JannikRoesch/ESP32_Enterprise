@@ -21,11 +21,11 @@ Modularer C++-Framework für professionelles ESP32-Development.
 | TinyML (Beta)     | TensorFlow Lite Integration                   |
 
 ## ⚙️ Quickstart
-\`\`\`bash
+```bash
 pio run --target uploadfs
 pio run --target upload
 pio device monitor
-\`\`\`
+```
 
 ## 🌐 Admin UI
 - `http://<esp32-ip>`
