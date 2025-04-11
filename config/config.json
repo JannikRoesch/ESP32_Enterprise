@@ -1,0 +1,6 @@
+{
+  "wifi_ssid": "MyWiFi",
+  "wifi_pass": "password123",
+  "mqtt_host": "192.168.1.100",
+  "ota_url": "https://example.com/update.bin"
+}

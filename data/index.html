@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>ESP32 Admin Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1>ESP32 Enterprise Dashboard</h1>
+
+  <section>
+    <h2>Live-Status</h2>
+    <pre id="wsLog">[Warte auf WebSocket...]\n</pre>
+  </section>
+
+  <section>
+    <h2>Konfiguration</h2>
+    <form id="cfgForm">
+      <label>MQTT Host:</label><input id="mqtt" />
+      <label>OTA URL:</label><input id="ota" />
+      <button>💾 Speichern</button>
+    </form>
+    <pre id="log"></pre>
+  </section>
+
+  <script src="/config.js"></script>
+  <script src="/websocket.js"></script>
+</body>
+</html>

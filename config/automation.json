@@ -1,0 +1,10 @@
+[
+  {
+    "name": "LED Trigger",
+    "triggerType": "pin",
+    "triggerPin": 4,
+    "actionType": "gpio",
+    "actionPin": 2,
+    "actionValue": 1
+  }
+]
