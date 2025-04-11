@@ -31,6 +31,10 @@ pio device monitor
 - `http://<esp32-ip>`
 - Tabs: Dashboard, Netzwerk, MQTT, OTA, Automation
 
+## 🧪 Beispielprojekt
+- Im Ordner `examples/EnterpriseDemo_v1_9/` enthalten.
+- Demonstriert **WiFi**, **OTA**, **Automation**, **WebUI** und **Logging**.
+
 ## 📘 Dokumentation
 - `docs/ui/*.md` für jedes Modul
 - `docs/CHANGELOG.md` für Versionen
