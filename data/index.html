@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8" />
-  <title>ESP32 Admin Dashboard</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/style.css" />
-</head>
+<head><title>ESP32 Admin UI</title><meta charset="UTF-8" /></head>
 <body>
-  <h1>ESP32 Enterprise Dashboard</h1>
+<h1>ESP32 Enterprise UI v2.0</h1>
 
-  <section>
-    <h2>Live-Status</h2>
-    <pre id="wsLog">[Warte auf WebSocket...]\n</pre>
-  </section>
+<section id="ota">
+  <h2>OTA Einstellungen</h2>
+  <button onclick="checkForUpdate()">Check for Update</button><br />
+  <label><input type="checkbox" id="autoCheck" /> Automatisch prüfen</label><br />
+  <label><input type="checkbox" id="autoInstall" /> Automatisch installieren</label>
+</section>
 
-  <section>
-    <h2>Konfiguration</h2>
-    <form id="cfgForm">
-      <label>MQTT Host:</label><input id="mqtt" />
-      <label>OTA URL:</label><input id="ota" />
-      <button>💾 Speichern</button>
-    </form>
-    <pre id="log"></pre>
-  </section>
-
-  <script src="/config.js"></script>
-  <script src="/websocket.js"></script>
+<script src="/ota.js"></script>
+<script src="/config.js"></script>
 </body>
 </html>

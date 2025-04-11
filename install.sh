@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "📦 Initialisiere ESP32 Enterprise Library..."
+echo "📦 Initialisiere ESP32 Enterprise Library v2.0.0..."
 pio lib install
 pio run
 echo "🔁 Optional: Web UI hochladen mit:"

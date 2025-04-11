@@ -33,6 +33,6 @@ void AutomationManager::load() {
 }
 
 std::vector<AutomationRule>& AutomationManager::get() { return rules; }
-void AutomationManager::save() {}  // Placeholder
-void AutomationManager::loop() {}  // Placeholder
-void AutomationManager::trigger(String, int) {}  // Placeholder
+void AutomationManager::save() {}
+void AutomationManager::loop() {}
+void AutomationManager::trigger(String, int) {}

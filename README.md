@@ -1,21 +1,36 @@
-# ESP32 Enterprise Library v1.9.0
+# 🚀 ESP32 Enterprise Library (v2.0.0)
 
-**Professionelle, modulare C++-Bibliothek für ESP32-Projekte**
+Modularer C++-Framework für professionelles ESP32-Development.  
+**Automation, Web-UI, OTA, MQTT, TinyML & mehr.**
 
-## Features
-- WiFi, MQTT, OTA
-- WebConfig Admin UI
-- Automatisierung mit Trigger/Aktion
-- Blockly-Editor
-- JSON-Konfig
-- WebSocket Monitoring
-- TinyML ready
+## 📚 Inhaltsverzeichnis
+1. [Features](#features)
+2. [Quickstart](#quickstart)
+3. [Admin UI](#admin-ui)
+4. [Beispielanwendung](#beispielanwendung)
+5. [Dokumentation](#dokumentation)
+6. [Changelog](#changelog)
 
-## Schnellstart
+## 🧩 Features
+| Modul             | Beschreibung                                  |
+|-------------------|-----------------------------------------------|
+| WiFi / MQTT       | Verbindung & Kommunikation                    |
+| OTA (v2.0.0)      | Update-Check, Auto-Update, Version-Vergleich  |
+| Automation Engine | Trigger → Aktion Logik                        |
+| WebConfig UI      | Admin UI mit modularen Tabs                   |
+| TinyML (Beta)     | TensorFlow Lite Integration                   |
 
-```bash
+## ⚙️ Quickstart
+\`\`\`bash
 pio run --target uploadfs
 pio run --target upload
 pio device monitor
-```
+\`\`\`
 
+## 🌐 Admin UI
+- `http://<esp32-ip>`
+- Tabs: Dashboard, Netzwerk, MQTT, OTA, Automation
+
+## 📘 Dokumentation
+- `docs/ui/*.md` für jedes Modul
+- `docs/CHANGELOG.md` für Versionen

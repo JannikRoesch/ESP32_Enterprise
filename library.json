@@ -1,6 +1,6 @@
 {
   "name": "ESP32EnterpriseLib",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "Modulare, getestete und dokumentierte ESP32-Arduino-Bibliothek mit OTA, WebUI, Automation, MQTT, BLE, AI.",
   "keywords": ["esp32", "enterprise", "mqtt", "ota", "webui", "tinyml"],
   "authors": [

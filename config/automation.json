@@ -1,6 +1,6 @@
 [
   {
-    "name": "LED Trigger",
+    "name": "AutoLED",
     "triggerType": "pin",
     "triggerPin": 4,
     "actionType": "gpio",
